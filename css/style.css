@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Header style */
+header{
+    background-color: white;
+    padding:5px;
+    height:120px;
+    line-height: 120px;
+    
+}
+
+.logo{
+    padding: 10px;
+    color: #252525;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: -5px;
+    vertical-align: baseline;
+}
+
+span{
+    vertical-align: top;
+    line-height: 100px;
+}
