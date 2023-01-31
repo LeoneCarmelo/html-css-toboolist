@@ -8,7 +8,9 @@ body{
     background-color: #f6f8f9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* Header style */
+
 header{
     background-color: white;
     padding:5px;
@@ -25,12 +27,13 @@ header{
     vertical-align: baseline;
 }
 
-span{
+.logo>span{
     vertical-align: top;
     line-height: 100px;
 }
 
 /* Main style */
+
 .container{
     width:1000px;
     margin: 74px auto 0px;
@@ -38,24 +41,83 @@ span{
     background-color: white;
 }
 
-.cont-button{
+.second{
+    margin-top:3px;
+    margin-bottom: 10px;
+}
+
+.section{
+    padding-bottom: 1rem;
+}
+
+.task{
+    padding: 15px;
+}
+
+strong{
+    font-size: 1.2rem;
+}
+
+.cont-button, .section{
     padding:10px 25px;
 }
+
+/* Button style */
+
 button{
     padding:8px 15px;
     border:none;
     border-radius: 5px;
 }
-.btn-task{
+
+.btn-task, .blue{
     background-color: #45abea;
     color: white;
 }
+
+.purple{
+    background-color: #9c72e4;
+}
+
+.green{
+    background-color: #62bfa7;
+}
+
+.orange{
+    background-color: #f2a33d;
+}
+
+.pinky{
+    background-color: #d863a1;
+}
+
+.olive{
+    background-color: #b0c926;
+}
+
+.btn{
+    padding:8px 15px;
+    border:none;
+    border-radius: 15px;
+    color:white;
+}
+
 .btn-section{
     background-color: white;
     border: 1px solid #ced3d7;
     color: #e3e6e9;
     border: 1px solid #ced3d7;
 }
-.second{
-    margin-top:3px;
+
+.circle{
+    border:2px solid #62bfa7;
+    border-radius: 50%;
+    padding:4px;
+    color:#62bfa7;
+    font-weight: bold;
+}
+
+.red{
+    color:red;
+    border-color: red;
 }
